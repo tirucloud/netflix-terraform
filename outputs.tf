@@ -1,9 +1,3 @@
-output "instance_ip" {
-  value = aws_instance.jenkins.public_ip
-}
-output "instance_id" {
-  value = aws_instance.jenkins.id
-}
 output "jenkins-url" {
   value = "http://${aws_instance.jenkins.public_ip}:8080"
 }
