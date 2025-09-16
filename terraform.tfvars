@@ -1,0 +1,5 @@
+ami            = "ami-020cba7c55df1f615"
+instance_type  = "t2.large"
+key_name       = "nvg"
+security_group = "Project-SG"
+region         = "us-east-1"

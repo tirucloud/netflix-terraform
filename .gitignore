@@ -5,7 +5,7 @@ crash.log
 crash.*.log
 
 # Terraform backup files
-*.tfvars
+
 *.tfvars.json
 override.tf
 override.tf.json
