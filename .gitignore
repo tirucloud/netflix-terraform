@@ -19,7 +19,7 @@ override.tf.json
 .terraform/
 
 # Sensitive variable files
-terraform.tfvars
+
 secret.auto.tfvars
 *.auto.tfvars
 
