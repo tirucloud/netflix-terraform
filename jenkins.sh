@@ -1,4 +1,5 @@
 #!/bin/bash
+# Jenkins installation script
 sudo apt-get update
 sudo apt-get install fontconfig openjdk-21-jre -y
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
